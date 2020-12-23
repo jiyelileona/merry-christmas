@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: 'Mountains of Christmas', cursive;
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+    transform: translate(-50%, -50%);
+    margin: auto;
+  }
+ 
+  video {
+    height: 100vh;
+    margin: auto;
+    object-fit: cover;
+  }
+}

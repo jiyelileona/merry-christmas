@@ -1,0 +1,21 @@
+{
+  "name": "merrychristmas",
+  "version": "1.0.0",
+  "description": "merry christmas",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "clean": "rimraf dist .cache",
+    "build": "parcel build ./index.html",
+    "surge": "surge -d https://leo-merry-christmas.surge.sh dist",
+    "deploy": "run-s clean build surge"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scrollmagic": "^2.0.8"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}
