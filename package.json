@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "sass": "^1.30.0"
+    "sass": "^1.30.0",
+    "sweetalert": "^2.1.2"
   }
 }
