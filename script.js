@@ -25,7 +25,7 @@ setInterval(function () {
   video.currentTime = delay;
 }, 100);
 
-const SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.lang = 'en-US';
 
