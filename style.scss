@@ -67,19 +67,20 @@ body {
 
     img {
       position: absolute;
-      top: 50%;
+      top: 85%;
       left: 50%;
       color: red;
       transform: translate(-50%, -50%);
       margin: auto;
-      width: 30%;
-      height: 30%;
+      width: 20%;
+      height: 20%;
     }
 
     video {
       height: 100vh;
       margin: auto;
       object-fit: cover;
+      border-radius: 5px;
     }
   }
 }
